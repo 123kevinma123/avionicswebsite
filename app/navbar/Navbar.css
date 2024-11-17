@@ -128,12 +128,16 @@
 }
 
 @media (max-width: 768px) {
-	.navbar {
+	.dropdown-toggle {
+		display: block;
 	}
 	.logo {
 		position: absolute;
 	}
 	.space-x-4 {
 		display: none;
+	}
+	.desktop-links {
+		visibility: hidden;
 	}
 }

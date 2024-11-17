@@ -19,7 +19,7 @@ function Projects() {
 		{
 			title: 'Airbrake System',
 			description:
-				'A precision-engineered airbrake system ensuring controlled descent and achieving target altitudes with unparalleled accuracy.',
+				'An airbrake system designed to provide controlled ascent to accurately slow the rocket down to 10,000 feet.',
 			image: '/images/no-image.jpg',
 			link: 'https://github.com/PSP-Spaceport-Avionics/Dragster',
 		},
