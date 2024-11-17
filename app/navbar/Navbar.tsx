@@ -16,7 +16,7 @@ function Navbar() {
 	const [lastScrollY, setLastScrollY] = useState(0);
 	const [isNavBarLoaded, setIsNavBarLiaded] = useState(false);
 	const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-	const [isMobileView, setIsMobileView] = useState(window.innerWidth <= 768);
+	const [isMobileView, setIsMobileView] = useState(false);
 
 	const controlNavbar = () => {
 		if (window.scrollY > lastScrollY) {

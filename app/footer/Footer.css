@@ -5,3 +5,8 @@
 	position: relative;
 	margin-top: -125px;
 }
+@media (max-width: 768px) {
+	.footer {
+		margin-top: 0px;
+	}
+}
