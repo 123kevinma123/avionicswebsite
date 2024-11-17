@@ -72,7 +72,10 @@ function Navbar() {
 				<button
 					className='dropdown-toggle'
 					onClick={toggleDropdown}>
-					<MenuIcon fontSize='large' />
+					<MenuIcon
+						fontSize='large'
+						className='menuIcon'
+					/>
 				</button>
 				{isDropdownOpen && (
 					<div className='dropdown-menu'>

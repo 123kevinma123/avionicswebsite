@@ -88,7 +88,6 @@
 	position: fixed;
 	right: 30px;
 }
-
 .dropdown-toggle {
 	color: white;
 	border: none;
@@ -96,6 +95,7 @@
 	font-size: 2rem;
 	z-index: 12;
 	/*border: 2px solid red;*/
+	visibility: hidden;
 }
 
 .dropdown-menu {
@@ -139,5 +139,8 @@
 	}
 	.desktop-links {
 		visibility: hidden;
+	}
+	.dropdown-toggle {
+		visibility: visible;
 	}
 }
